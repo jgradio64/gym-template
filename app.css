@@ -1,0 +1,66 @@
+body {
+  background: #556f44;
+  font-family: 'Roboto Mono', monospace;
+  color: #95bf74;
+}
+
+h2 {
+  color: #283f3b;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+p {
+  color: #99ddc8;
+  font-size: 1.125rem;
+  font-weight: 100;
+  line-height: 2.0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: #99ddc8;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+  color: #283f3b;
+  font-weight: 400;
+    font-size: 1.8rem;
+}
+
+#headingGroup span {
+  color: #283f3b;
+}
+
+#headingGroup h1 {
+  color: #99ddc8;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.navbar.scrolled {
+  background: #659b5e;
+  transition: background 350ms;
+}
+
+@media (max-width: 1440px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
